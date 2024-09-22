@@ -1,0 +1,67 @@
+*menu {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+
+
+}
+
+nav {
+    background-color: rgb(194, 247, 247);
+    padding: 10px 20px;
+    color: black;
+    background-color: white 30%;
+
+}
+
+.container {
+    div {
+        width : 200px;
+        height: 200px;
+        margin-bottom: 50pxs;
+        background: linear-gradient(to bottom, white, white);
+      }
+      
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    height: 200vh;
+    border: 1px  solid white;
+    padding: 50px;
+    width: 200px;
+    margin-left: -50pxs;
+    background-color: white;
+    font-weight: 700;
+
+}
+.mennuitem {
+    
+    color: orange;
+}
+
+.horizontal-box{
+    display:flex;
+    justify-content: space-around;
+      border: 1px solid white;
+      padding: 10px;
+      top: -30px;
+      left: 30%;
+      position: absolute;
+      width: 60%;
+      margin-top: 50px;
+      position: absolute;
+      background-color: white;
+      height:60px;
+      border-radius: 20pxs  ;
+
+
+}
+.box-item{
+
+     position: absolute;
+     right: 40px;
+
+
+}
