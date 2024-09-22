@@ -1,0 +1,23 @@
+#one{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-left: 50px;
+    margin-top: 40px;
+    transition-timing-function: ease-in;
+}
+#two{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(121, 175, 245);
+    transition-timing-function: ease-in 3s;
+}
+#two:hover{
+    transform: scale(3);
+}
+#one:hover{
+    transform:translateY(45px);
+    
+}
